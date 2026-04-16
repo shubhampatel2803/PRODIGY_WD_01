@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* NAVBAR */
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    transition: 0.3s;
+    z-index: 1000;
+}
+
+nav.scrolled {
+    background: linear-gradient(to right, #141e30, #243b55);
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.nav-links a:hover {
+    color: #ffcc00;
+    transform: scale(1.1);
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* SECTIONS (Different Colors) */
+.section {
+    height: 100vh;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+/* About Section */
+#about {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+
+/* Services Section */
+#services {
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+}
+
+/* Portfolio Section */
+#portfolio {
+    background: linear-gradient(135deg, #f7971e, #ffd200);
+    color: black;
+}
+
+/* Contact Section */
+#contact {
+    background: linear-gradient(135deg, #c471f5, #fa71cd);
+}
+
+/* FORM */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: auto;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+}
+
+button {
+    padding: 12px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ffcc00;
+    color: black;
+}
