@@ -1,7 +1,7 @@
 # Responsive Landing Page with Full Stack Features 🚀
 
 ## 🔗 Live Demo
-Frontend: [https://your-site.netlify.app ](https://responsivelandingpagebyshubh.netlify.app/) 
+Frontend: (https://prodigy-wd-01-eta-seven.vercel.app/) 
 Backend: [https://your-api.onrender.com  ](https://prodigy-wd-01-n520.onrender.com)
 
 ## 📌 Features
